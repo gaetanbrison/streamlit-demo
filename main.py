@@ -7,28 +7,16 @@
 import streamlit as st
 import numpy as np
 
-from sklearn import datasets
-from sklearn.model_selection import train_test_split
-
-from sklearn.decomposition import PCA
-from sklearn.svm import SVC
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.ensemble import RandomForestClassifier
-from IPython.display import SVG
-
 from sknetwork.embedding import Spring
 from sknetwork.utils import KNNDense, CNNDense
 from sknetwork.visualization import svg_graph
 from sklearn.metrics import accuracy_score
 
-from IPython.display import SVG
 
 from sknetwork.data import karate_club, painters, movie_actor
 from sknetwork.classification import KNN
 from sknetwork.embedding import GSVD
 from sknetwork.visualization import svg_graph, svg_digraph, svg_bigraph
-import pybase64
-from line_profiler import LineProfiler
 
 
 #II) Start coding
