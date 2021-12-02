@@ -22,7 +22,7 @@ from sknetwork.visualization import svg_graph, svg_digraph, svg_bigraph
 #II) Start coding
 
 st.image('scikit-network.jpeg', width=200)
-st.title('Scikit-Network Example')
+st.title('Gaëtan est trop fort')
 
 st.write("""
 ### Explore different clustering models and datasets
